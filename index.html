@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="refresh" content="30">
+    <title> Mi sitio de orellanas con Bootstrap</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/css/bootstrap.min.css" integrity="sha384-AysaV+vQoT3kOAXZkl02PThvDr8HYKPZhNT5h/CXfBThSRXQ6jW5DO2ekP5ViFdi" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <!--<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/united/bootstrap.min.css" rel="stylesheet" integrity="sha384-pVJelSCJ58Og1XDc2E95RVYHZDPb9AVyXsI8NoVpB2xmtxoZKJePbMfE4mlXw7BJ" crossorigin="anonymous">-->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">-->
+    <link rel="stylesheet" href="css/styles.css">
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+	<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+	<!--<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>-->
+
+  </head>
+  <body>
+	<header>
+
+		<nav class="navbar navbar-light bg-faded navbar-fixed-top">
+		    <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"></button>
+		  <div class="collapse navbar-toggleable-md" id="navbarResponsive">
+		    <a class="navbar-brand" href="#">Navbar</a>
+		    <ul class="nav navbar-nav">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Link</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Link</a>
+		      </li>
+		      <li class="nav-item dropdown">
+		        <a class="nav-link dropdown-toggle" href="#" id="responsiveNavbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+		        <div class="dropdown-menu" aria-labelledby="responsiveNavbarDropdown">
+		          <a class="dropdown-item" href="pag2.html">Action</a>
+		          <a class="dropdown-item" href="#">Another action</a>
+		          <a class="dropdown-item" href="#">Something else here</a>
+		        </div>
+		      </li>
+		    </ul>
+		    <form class="form-inline float-lg-right">
+		      <input class="form-control" type="text" placeholder="Search">
+		      <button class="btn btn-outline-success" type="submit">Search</button>
+		    </form>
+		  </div>
+		</nav>
+	</header>
+	<section class="jumbotron">
+		<div class="container">
+			<h1>Orellanas</h1>
+			<p  id="demo"></p>
+			<p> Alimento Organico</p>
+	   </div>
+
+	</section>
+  <button type="button" onclick="document.getElementById('demo').innerHTML = Date()"> ¿Que hora es?.</button>
+  <?php
+  echo "My first PHP script!";
+  ?>
+  <p>
+
+	An image as a link: <a href="index.html">
+	<img border="10" alt="W3Schools" src="imagenes/img.gif" width="300">
+	</a>
+	</p>
+	<!-- Footer -->
+	<footer class="w3-center w3-light-grey w3-padding-32">
+	  <p>Powered by <a href="http://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+    <div class="container">
+          <!-- Example row of columns -->
+          <div class="row">
+            <div class="col-md-4">
+              <h2>Alimenticio</h2>
+              <p>Es una fuente aleternativa de proteina.</p>
+              <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+            </div>
+            <div class="col-md-4">
+              <h2>Saludable</h2>
+              <p>Además de la caracteristicas alimenticias de las orellanas, hay que resaltar sus caracteristicas medicinales  </p>
+              <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+           </div>
+            <div class="col-md-4">
+              <h2>Heading</h2>
+              <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+              <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+            </div>
+          </div>
+
+        </div>
+  </footer>
+	    <!-- JavaScript files should be linked at the bottom of the page  -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js" integrity="sha384-BLiI7JTZm+JWlgKa0M0kGRpJbF2J8q+qreVrKBC47e3K6BW78kGLrCkeRX6I9RoK" crossorigin="anonymous"></script>
+        <script src="https://cdn.rawgit.com/koffsyrup/FileSaver.js/master/FileSaver.js"></script>
+	    </body>
+</html>
