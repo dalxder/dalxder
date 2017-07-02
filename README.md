@@ -1,4 +1,4 @@
 # dalxder
 pagina personal
 
-https://dalxder.github.io/dalxder/
+https://dalxder.github.io/web/
