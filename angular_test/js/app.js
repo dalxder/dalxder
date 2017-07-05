@@ -9,7 +9,7 @@
 		$scope.bookmarks=[
 		{id:1,name:'youtube.com',url:'https://youtube.com', category: 'SIG'},
 		{id:2,name:'github.com',url:'https://github.com', category: 'Aplicaciones'},
-			{id:3,name:'github.com',url:'pags/ejercicio_1.html', category: 'Aplicaciones'}
+		{id:3,name:'gith.com',url:'pags/ejercicio_1.html', category: 'Aplicaciones'}
 		];
 		$scope.currentCategory='SIG';
 		$scope.setCurrentCategory=function(category){
