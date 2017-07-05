@@ -12,6 +12,7 @@
 		{id:3,name:'pags/ejercicio_1.html',url:'pags/ejercicio_1.html', category: 'Aplicaciones'}
 		];
 		$scope.currentCategory='SIG';
+		$scope.currentFooter='pags/ejercicio_1.html';
 		$scope.setCurrentCategory=function(category){
 			$scope.currentCategory=category;
 		}
